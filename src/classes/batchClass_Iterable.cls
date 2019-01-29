@@ -28,6 +28,6 @@ public class batchClass_Iterable implements database.Batchable<string> {
         str.add('a');
         str.add('b');
         
-        return str;
+        return str;   
     }
 }
