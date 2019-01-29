@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:attribute name="messageFromEvent" type="String"/>
+	<aura:handler name="eventMessasge" event="c:EventMessage" action="{!c.handleComponentEvent}"/>
+     <c:NotifierComponent />
+    messageFromEvent = {!v.messageFromEvent}
+    
+</aura:component>

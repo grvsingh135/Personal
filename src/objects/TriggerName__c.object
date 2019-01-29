@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>IsActive__c</fullName>
+        <externalId>false</externalId>
+        <label>IsActive</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trigger_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Trigger Name</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>TriggerName</label>
+    <listViews>
+        <fullName>CusttomSetting</fullName>
+        <columns>NAME</columns>
+        <columns>IsActive__c</columns>
+        <columns>Trigger_Name__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>CusttomSetting</label>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

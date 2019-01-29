@@ -1,0 +1,9 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <p >Dynamically created button</p>
+     <ui:outputText aura:id="nameOutput" value="before click"/>
+     <ui:button  aura:id="outputButton" label="Submit" press="{!c.changeoutputTextText}"/>
+    {!v.body}	
+    
+</aura:component>

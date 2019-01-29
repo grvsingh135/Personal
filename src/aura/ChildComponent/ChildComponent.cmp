@@ -1,0 +1,14 @@
+<aura:component extends="c:BaseComponent" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	
+    <lightning:input name="myInput"  label="Search"   style="color:red;"/>
+     <lightning:input class="slds-form--inline is-required" name="Phone" label="Phone" aura:id="Phone" value="{!v.Phone}" required="true" variant="label-hidden"/> 
+    
+     <label class="slds-form-element__label" style="margin-right: 0.5rem;">Last Name</label>
+    <!--lightning help text for input field-->
+    <lightning:helptext content="Please enter your last name" class="customIcon"/> 
+    <!-- use variant="label-hidden" for hide standard label-->
+    <lightning:input type="text"
+                     name="lName"
+                     label="Last Name"
+                     variant="label-hidden"/>
+</aura:component>

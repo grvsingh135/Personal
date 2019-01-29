@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:registerEvent  name="eventMessasge" type="c:EventMessage"/>
+    <lightning:button
+                      label="Click here to fire a component event"
+                      onclick="{!c.fireComponentEvent}" />
+                      
+</aura:component>

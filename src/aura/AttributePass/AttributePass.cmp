@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:attribute name="ParentMsg" type="string" default="attribute messgae for test"/>
+    <c:Attribute msg="{!v.ParentMsg}" />
+</aura:component>
